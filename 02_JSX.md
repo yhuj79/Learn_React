@@ -3,7 +3,7 @@
 <div align="left"><a href='https://github.com/yhuj79/Learn_REACT/blob/main/README.md'><<:one:PREV (main)</a></div>
 <div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/main/03_Component.md'>:three:NEXT (Component) >></a></div>
 
-## 1 ) hello-react create
+## 1 ) Hello-react Create
 
 시작 폴더 Git Bash here
 
@@ -29,7 +29,7 @@ div 요소를 컴포넌트에서 사용하지 않을 경우 사용.
 <Fragment></Fragment> 는 <></> 로도 나타냄.
 ```
 
-## 4 ) 조건부 연산자, && 조건부 렌더링, undefined
+## 4 ) 조건부 연산자, && 조건부 렌더링, Undefined
 
 ## 5 ) 인라인 스타일링
 
@@ -39,9 +39,9 @@ div 요소를 컴포넌트에서 사용하지 않을 경우 사용.
 (background - color) >> backgroundColor;
 ```
 
-## 6 ) class >> className
+## 6 ) Class >> ClassName
 
-## 7 ) self-closing
+## 7 ) Self-Closing
 
 ```javascript
 <input></input> >> <input />;
