@@ -1,9 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import MyComponent from "./MyComponent";
 
-function App() {
-  const name = 'React';
-  return <div className='react'>{name}</div>;
-}
+const App = () => {
+  return <MyComponent /* name='yhuj79' */ favoriteNumber={3}>React!</MyComponent>;
+};
 
 export default App;
