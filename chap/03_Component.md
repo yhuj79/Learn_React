@@ -233,13 +233,13 @@ const Say = () => {
         style={{ backgroundColor: "orange" }}
         onClick={() => setColor("orange")}
       >
-        RED
+        ORANGE
       </button>
       <button
         style={{ backgroundColor: "yellow" }}
         onClick={() => setColor("yellow")}
       >
-        RED
+        YELLOW
       </button>
     </div>
   );

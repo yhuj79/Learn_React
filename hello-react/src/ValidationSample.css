@@ -1,0 +1,12 @@
+.sucess {
+  background-color: lightgreen;
+}
+.failure {
+  background-color: lightcoral;
+}
+#sucess {
+  color: green;
+}
+#failure {
+  color: red;
+}

@@ -16,8 +16,8 @@ const Say = () => {
             <h1 style={{ color }}>{message}</h1>
 
             <button style={{ backgroundColor: 'red' }} onClick={() => setColor('red')}>RED</button>
-            <button style={{ backgroundColor: 'orange' }} onClick={() => setColor('orange')}>RED</button>
-            <button style={{ backgroundColor: 'yellow' }} onClick={() => setColor('yellow')}>RED</button>
+            <button style={{ backgroundColor: 'orange' }} onClick={() => setColor('orange')}>ORANGE</button>
+            <button style={{ backgroundColor: 'yellow' }} onClick={() => setColor('yellow')}>YELLOW</button>
         </div>
     );
 }
