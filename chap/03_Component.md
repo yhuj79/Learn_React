@@ -1,7 +1,7 @@
 # :three:[ Component](https://github.com/yhuj79/Learn_React/blob/master/chap/03_Component.md)
 
 <div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/02_JSX.md'><<:two:PREV (JSX)</a></div>
-<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/04_Event Handling.md'>:four:NEXT (Event Handling) >></a></div>
+<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/04_EventHandling.md'>:four:NEXT (Event Handling) >></a></div>
 
 ## 1 ) Component, Props (Default, Type)
 
@@ -47,8 +47,6 @@ const App = () => {
 
 export default App;
 ```
-
-다음과 같이 출력된다.
 
 <img src=https://raw.githubusercontent.com/yhuj79/Learn_React/main/md_image/03_Component_1.PNG>
 

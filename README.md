@@ -9,3 +9,7 @@
 ### :two: [JSX](https://github.com/yhuj79/Learn_React/blob/master/chap/02_JSX.md)
 
 ### :three: [Component](https://github.com/yhuj79/Learn_React/blob/master/chap/03_Component.md)
+
+### :four:[Event Handling](https://github.com/yhuj79/Learn_React/blob/master/chap/04_EventHandling.md)
+
+### :five:[ref: DOM](https://github.com/yhuj79/Learn_React/blob/master/chap/05_REF.md)
