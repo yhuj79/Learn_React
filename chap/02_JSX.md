@@ -1,7 +1,7 @@
-# :two:[ JSX](https://github.com/yhuj79/Learn_REACT/blob/main/02_JSX.md)
+# :two:[ JSX](https://github.com/yhuj79/Learn_React/blob/master/chap/02_JSX.md)
 
-<div align="left"><a href='https://github.com/yhuj79/Learn_REACT/blob/main/README.md'><<:one:PREV (main)</a></div>
-<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/main/03_Component.md'>:three:NEXT (Component) >></a></div>
+<div align="left"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/README.md'><<:one:PREV (main)</a></div>
+<div align="right"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/03_Component.md'>:three:NEXT (Component) >></a></div>
 
 ## 1 ) Hello-react Create
 
