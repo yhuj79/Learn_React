@@ -91,3 +91,96 @@ export default App;
 ```
 
 <img src=https://raw.githubusercontent.com/yhuj79/Learn_React/main/md_image/05_REF_1.gif>
+
+## 2 ) REF - Input ID Focus
+
+비밀번호 확인기능에서 ref를 추가
+Click했을 경우 input에 focus 유지
+
+```javascript
+handButtonClick = () => {
+  this.setState({
+    clicked: true,
+    validated: this.state.password === "0000",
+  });
+  this.input.focus();
+};
+```
+
+```javascript
+<input
+  ref={(ref) => (this.input = ref)}
+  type="password"
+  placeholder="Input Password"
+  value={this.state.password}
+  onChange={this.handleChange}
+  className={
+    this.state.clicked ? (this.state.validated ? "sucess" : "failure") : ""
+  }
+/>
+```
+
+## 3 ) REF - ScrollBox
+
+스크롤 박스가 있는 컴포넌트
+그리고 맨 밑으로 스크롤되는 버튼 구현하기
+
+```javascript
+import { Component } from "react";
+
+class ScrollBox extends Component {
+  scrollToBottom = () => {
+    const { scrollHeight, clientHeight } = this.box;
+    this.box.scrollTop = scrollHeight - clientHeight;
+  };
+
+  render() {
+    const style = {
+      border: "1px solid black",
+      height: "300px",
+      width: "300px",
+      overflow: "auto",
+      position: "relative",
+    };
+    const innerStyle = {
+      width: "100%",
+      height: "650px",
+      background: "linear-gradient(white,black)",
+    };
+
+    return (
+      <div
+        style={style}
+        ref={(ref) => {
+          this.box = ref;
+        }}
+      >
+        <div style={innerStyle} />
+      </div>
+    );
+  }
+}
+export default ScrollBox;
+```
+
+```javascript
+import { Component } from "react";
+import ScrollBox from "./ScrollBox";
+
+class App extends Component {
+  render() {
+    return (
+      <div style={{ padding: "30px" }}>
+        <ScrollBox ref={(ref) => (this.scrollBox = ref)} />
+        <button onClick={() => this.scrollBox.scrollToBottom()}>
+          맨 밑으로
+        </button>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+<img src=https://raw.githubusercontent.com/yhuj79/Learn_React/main/md_image/05_REF_2.PNG>
