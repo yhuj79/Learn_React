@@ -1,24 +1,21 @@
 import { useState } from "react";
 
 const Say = () => {
-    // IN , OUT Button
-    const [message, setMessage] = useState('');
-    const onClickEnter = () => setMessage('WelCome');
-    const onClickLeave = () => setMessage('GoodBye');
+    const [text, setText] = useState("");
+    const set1 = () => setText("this is set1.");
+    const set2 = () => setText("this is set2.");
 
-    // Color Button
-    const [color, setColor] = useState('');
-
+    const [color, setColor] = useState("");
     return (
         <div style={{ padding: '30px' }}>
-            <button onClick={onClickEnter}>IN</button>
-            <button onClick={onClickLeave}>OUT</button>
-            <h1 style={{ color }}>{message}</h1>
+            <button onClick={set1}>SET 1</button><button onClick={set2}>SET 2</button>
+            <h1 style={{ color }}>{text}</h1>
 
-            <button style={{ backgroundColor: 'red' }} onClick={() => setColor('red')}>RED</button>
-            <button style={{ backgroundColor: 'orange' }} onClick={() => setColor('orange')}>ORANGE</button>
-            <button style={{ backgroundColor: 'yellow' }} onClick={() => setColor('yellow')}>YELLOW</button>
+            <button onClick={() => setColor("green")}>GREEN</button>
+            <button onClick={() => setColor("blue")}>BLUE</button>
+            <br />
+            <button onClick={() => setColor("")}>Color Reset</button>
         </div>
-    );
+    )
 }
 export default Say;

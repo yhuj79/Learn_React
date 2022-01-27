@@ -10,6 +10,8 @@
 
 ### :three: [Component](https://github.com/yhuj79/Learn_React/blob/master/chap/03_Component.md)
 
-### :four:[Event Handling](https://github.com/yhuj79/Learn_React/blob/master/chap/04_EventHandling.md)
+### :four:[Event Handling](https://github.com/yhuj79/Learn_React/blob/master/chap/04_Event_Handling.md)
 
 ### :five:[ref: DOM](https://github.com/yhuj79/Learn_React/blob/master/chap/05_REF.md)
+
+### :six:[Component Iteration](https://github.com/yhuj79/Learn_React/blob/master/chap/06_Component_Iteration.md)
