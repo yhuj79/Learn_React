@@ -1,7 +1,7 @@
 # :six:[ Component Iteration](https://github.com/yhuj79/Learn_React/blob/master/chap/06_Component_Iteration.md)
 
 <div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/05_REF.md'><<:five:PREV (ref: DOM)</a></div>
-<!--<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/06_Component_Iteration.md'>:seven:NEXT ( ) >></a></div>-->
+<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/07_LifeCycle.md'>:seven:NEXT (Life Cycle) >></a></div>
 
 ## 1 ) MAP
 
@@ -97,4 +97,22 @@ const IterationSample = () => {
   );
 };
 export default IterationSample;
+```
+
+<img src=https://raw.githubusercontent.com/yhuj79/Learn_React/main/md_image/06_Component_Iteration_2.PNG>
+
+## 3 ) 데이터 삭제 기능 구현
+
+filter 함수를 사용하여 textRemove가 더블클릭 시 리스트를 삭제한다.
+
+```javascript
+const textRemove = (id) => {
+  const nextNames = names.filter((name) => name.id !== id);
+  setNames(nextNames);
+};
+const namesList = names.map((name) => (
+  <li key={name.id} onDoubleClick={() => textRemove(name.iud)}>
+    {name.text}
+  </li>
+));
 ```

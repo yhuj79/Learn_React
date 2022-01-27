@@ -15,3 +15,7 @@
 ### :five:[ref: DOM](https://github.com/yhuj79/Learn_React/blob/master/chap/05_REF.md)
 
 ### :six:[Component Iteration](https://github.com/yhuj79/Learn_React/blob/master/chap/06_Component_Iteration.md)
+
+### :seven:[Life Cycle](https://github.com/yhuj79/Learn_React/blob/master/chap/07_LifeCycle.md)
+
+### :eight:[Hooks](https://github.com/yhuj79/Learn_React/blob/master/chap/08_Hooks.md)
