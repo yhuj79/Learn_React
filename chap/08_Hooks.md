@@ -10,7 +10,9 @@ const [value, setValue] = useState(0);
 ```
 
 파라미터에 상태의 기본값을 넣어준다.
+
 첫 번째 원소 : 상태 값
+
 두 번째 원소 : 상태를 설정하는 함수
 
 ```javascript
@@ -104,7 +106,9 @@ input을 변경하면 다음과 같이 출력됨
 <img src=https://raw.githubusercontent.com/yhuj79/Learn_React/main/md_image/08_Hooks_3.PNG>
 
 컴포넌트 등장 시에만 출력이 되도록 설정하려면
+
 두 번째 파라미터에 빈 공간의 배열을 입력해준다.
+
 그러면 컴포넌트가 화면에 최초 렌더링될 때만 콘솔이 출력된다.
 
 ```javascript
@@ -121,7 +125,7 @@ useEffect(() => {
 }, [Some]);
 ```
 
-## 2 ) UseEffect - effect, clean up
+## 3 ) UseEffect - effect, clean up
 
 ```javascript
 useEffect(() => {
@@ -161,3 +165,40 @@ export default App;
 상단에 숨기기, 보이기 기능을 구현하여 콘솔에 effect, cleanup이 나타나는 것을 확인
 
 <img src=https://raw.githubusercontent.com/yhuj79/Learn_React/main/md_image/08_Hooks_4.gif>
+
+## 4 ) UseReducer
+
+현재 상태, 업데이트를 위해 필요한 정보를 담은 액션(action)값을 전달받아
+
+새로운 상태를 변환하는 함수
+
+```javascript
+import { useReducer } from "react";
+
+function reducer(state, action) {
+  switch (action.type) {
+    case "INCREMENT":
+      return { value: state.value + 1 };
+    case "DECREMENT":
+      return { value: state.value - 1 };
+    default:
+      return state;
+  }
+}
+
+const Counter = () => {
+  const [cs, ccs] = useReducer(reducer, { value: 0 });
+  return (
+    <div style={{ padding: "30px" }}>
+      <h1>Count : {cs.value}</h1>
+      <button onClick={() => ccs({ type: "INCREMENT" })}>+1</button>
+      <button onClick={() => ccs({ type: "DECREMENT" })}>-1</button>
+    </div>
+  );
+};
+export default Counter;
+```
+
+useReducer의 장점
+
+컴포넌트 업데이트 로직을 컴포넌트 바깥으로 빼낼 수 있다.

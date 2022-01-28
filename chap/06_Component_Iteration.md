@@ -6,6 +6,7 @@
 ## 1 ) MAP
 
 데이터 배열을 컴포넌트 배열로 변환
+
 여러가지 형태로 출력해보기
 
 ```javascript
@@ -51,6 +52,7 @@ export default App;
 ## 2 ) KEY
 
 key가 없으면 Virtual DOM을 비교하는 과정에서 리스트를 순차적으로 비교하며 변화를 감지한다.
+
 하지만 key를 통해 어떤 변화가 일어났는지 더욱 빠르게 알아낼 수 있다.
 
 ```javascript
