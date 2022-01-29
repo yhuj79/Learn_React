@@ -19,3 +19,5 @@
 ### :seven:[Life Cycle](https://github.com/yhuj79/Learn_React/blob/master/chap/07_LifeCycle.md)
 
 ### :eight:[Hooks](https://github.com/yhuj79/Learn_React/blob/master/chap/08_Hooks.md)
+
+### :nine:[Styling](https://github.com/yhuj79/Learn_React/blob/master/chap/09_Styling.md)
