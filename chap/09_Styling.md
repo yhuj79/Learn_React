@@ -1,7 +1,7 @@
 # :nine:[ Styling](https://github.com/yhuj79/Learn_React/blob/master/chap/09_Styling.md)
 
 <div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/08_Hooks.md'><<:eight:PREV (Hooks)</a></div>
-<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/13_SPA.md'>:one::three:NEXT ( ) >></a></div>
+<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/13_SPA.md'>:one::three:NEXT (SPA) >></a></div>
 
 ## 1 ) CSS Module
 
