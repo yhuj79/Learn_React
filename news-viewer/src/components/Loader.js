@@ -15,14 +15,15 @@ const EmptySpace = styled.div`
     width: 300px;
     height: 300px;
 `
+
 const Spinner = () => {
     return (
         <Flex>
             <ReactSpinner
-                height="180"
-                width="30"
-                radius="15"
-                margin="5"
+                height="180px"
+                width="30px"
+                radius="15px"
+                margin="5px"
                 color="#3DB7CC"
             />
         </Flex>
