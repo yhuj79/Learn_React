@@ -4,7 +4,7 @@
 
 `리액트를 다루는 기술(개정판) - 길벗 / VELOPERT`
 
-## :information_source: [목차](https://github.com/yhuj79/Learn_React/blob/master/chap/00_TableOfContents.md)
+### :information_source: [목차](https://github.com/yhuj79/Learn_React/blob/master/chap/00_TableOfContents.md)
 
 ### :two: [JSX](https://github.com/yhuj79/Learn_React/blob/master/chap/02_JSX.md)
 
@@ -23,3 +23,7 @@
 ### :nine:[Styling](https://github.com/yhuj79/Learn_React/blob/master/chap/09_Styling.md)
 
 ### :one::three:[SPA](https://github.com/yhuj79/Learn_React/blob/master/chap/13_SPA.md)
+
+# Side
+
+### :heavy_check_mark: [TypeScript](https://velog.io/@velopert/create-typescript-react-component)
