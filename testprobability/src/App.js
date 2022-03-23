@@ -1,25 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import './Result';
+import TOTYTopPriceAll from './TOTYTopPriceAll';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code>testprobability
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={logo} className="App-logo" alt="logo" />
+      <h1>22TOTY Top Price All</h1>
+      <TOTYTopPriceAll />
     </div>
   );
 }
-
 export default App;

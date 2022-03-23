@@ -1,0 +1,86 @@
+.result_div {
+  background-image: url("./image/22TOTY.png");
+  width: 210px;
+  height: 330px;
+  margin: 50px;
+}
+.result_top {
+  width: 60px;
+  margin-bottom: -140px;
+  padding-top: 40px;
+  padding-left: 3px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -2px;
+}
+.result_top_overall {
+  font-size: 32px;
+}
+.result_top_position {
+  font-size: 20px;
+}
+.result_top_nation {
+  width: 28px;
+}
+.result_profileimg {
+  margin-left: 25px;
+  margin-top: 71px;
+  width: 179px;
+}
+.result_top_markdiv {
+  position: relative;
+  width: 51px;
+  height: 44px;
+  border-radius: 46px;
+  padding-top: 8px;
+  margin-top: -64px;
+  margin-left: 10px;
+  background-color: #fff;
+}
+.result_top_mark {
+  width: 36px;
+  margin-left: 7px;
+}
+.result_reinforcediv {
+  position: absolute;
+  width: 50px;
+  height: 26px;
+  left: 203px;
+  margin-top: -17px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgb(0 0 0 / 60%);
+  line-height: 1;
+  z-index: 50;
+}
+.result_bottom {
+  text-align: center;
+  margin-top: 12px;
+}
+.result_bottom_name {
+  display: flex;
+  justify-content: center;
+  margin-top: -3px;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: -0.7px;
+}
+.result_bottom_mark {
+  width: 23px;
+  height: 18px;
+  margin-top: 5px;
+}
+.result_pay_hexagon {
+  width: 34px;
+  height: 38px;
+  display: inline-block;
+  background-image: url(./image/PayHexagon.png);
+  margin-top: 6px;
+}
+.result_pay {
+  color: #787c85;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 5px;
+}
