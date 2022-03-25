@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
+.App {
+  display: block;
+}
 .App-logo {
   height: 200px;
   pointer-events: none;
+  margin-left: -40px;
+}
+.App_card {
+  display: flex;
 }
 
 @media (prefers-reduced-motion: no-preference) {
