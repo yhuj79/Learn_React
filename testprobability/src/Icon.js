@@ -36,8 +36,7 @@ function Icon() {
 
     return (
         <div className="pack_div">
-            <h2>[AG]<br />19, 20, 21<br />Special ICON 선수팩</h2>
-            <br />
+            <p className="pack_title">[AG] 19, 20, 21 Special ICON 선수팩</p>
             <p style={{ color: 'grey' }}>{num}</p>
             {(() => {
                 switch (true) {
@@ -70,7 +69,6 @@ function Icon() {
                         return <div className="pack_before"><img alt="" src={IconPack} /></div>
                 }
             })()}
-            <br />
             <button className="pack_button" onClick={handleClick}>OPEN</button>
         </div>
     );

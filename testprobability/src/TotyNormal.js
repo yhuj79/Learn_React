@@ -36,8 +36,7 @@ function TotyNormal() {
 
     return (
         <div className="pack_div">
-            <h2><br />22TOTY Top Price All<br /><br /></h2>
-            <br />
+            <p className="pack_title">22TOTY Top Price All</p>
             <p style={{ color: 'grey' }}>{num}</p>
             {(() => {
                 switch (true) {
@@ -70,7 +69,6 @@ function TotyNormal() {
                         return <div className="pack_before"><img alt="" src={TotyPackNormal} /></div>
                 }
             })()}
-            <br />
             <button className="pack_button" onClick={handleClick}>OPEN</button>
         </div>
     );

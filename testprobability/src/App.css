@@ -1,27 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
-.App {
-  display: block;
+.App_header {
+  margin: 30px;
+  margin-bottom: 10px;
 }
-.App-logo {
-  height: 200px;
+.App_react {
+  height: 120px;
   pointer-events: none;
-  margin-left: -40px;
 }
-.App_card {
-  display: flex;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App_react {
+    animation: App_react-spin infinite 20s linear;
   }
 }
-@keyframes App-logo-spin {
+@keyframes App_react-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}
+.App_card {
+  display: flex;
 }

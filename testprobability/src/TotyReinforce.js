@@ -36,8 +36,7 @@ function TotyReinforce() {
 
     return (
         <div className="pack_div">
-            <h2>[5강 확률 UP!]<br />22TOTY ALL 강화 선수팩<br />(1강~5강)</h2>
-            <br />
+            <p className="pack_title">22TOTY ALL 강화 선수팩 (1강~5강)</p>
             <p style={{ color: 'grey' }}>{num}</p>
             {(() => {
                 switch (true) {
@@ -70,7 +69,6 @@ function TotyReinforce() {
                         return <div className="pack_before"><img alt="" src={TotyPackReinforce} /></div>
                 }
             })()}
-            <br />
             <button className="pack_button" onClick={handleClick}>OPEN</button>
         </div>
     );
