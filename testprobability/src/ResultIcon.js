@@ -1,7 +1,7 @@
 import React from 'react';
 import './Result.css';
-import TotyMarkNormal from './image/TotyMarkNormal.png';
-import TotyMarkBottom from './image/TotyMarkBottom.png';
+import TotyMarkNormal from './image/IconMarkNormal.png';
+import TotyMarkBottom from './image/IconMarkBottom.png';
 
 function addComma(prNum) {
     const regexp = /\B(?=(\d{3})+(?!\d))/g;
@@ -11,7 +11,7 @@ function addComma(prNum) {
 function Result({ overall, position, nation, profile, reinforce, name, pay, price }) {
     return (
         <div>
-            <div className="result_div">
+            <div className="result_icon_div">
                 <div className="result_top">
                     <p className="result_top_overall">{overall}</p>
                     <p className="result_top_position">{position}</p>

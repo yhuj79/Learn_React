@@ -1,5 +1,11 @@
-.result_div {
+.result_toty_div {
   background-image: url("./image/TOTY.png");
+  width: 210px;
+  height: 330px;
+  margin: 50px;
+}
+.result_icon_div {
+  background-image: url("./image/ICON.png");
   width: 210px;
   height: 330px;
   margin: 50px;
@@ -15,17 +21,19 @@
 }
 .result_top_overall {
   font-size: 32px;
+  text-shadow: 0px 0px 3px rgb(0 0 0 / 70%);
 }
 .result_top_position {
   font-size: 20px;
+  text-shadow: 0px 0px 3px rgb(0 0 0 / 70%);
 }
 .result_top_nation {
   width: 28px;
 }
 .result_profileimg {
   margin-left: 25px;
-  margin-top: 71px;
-  width: 179px;
+  margin-top: 75px;
+  width: 175px;
 }
 .result_top_markdiv {
   position: relative;
@@ -44,9 +52,9 @@
 .result_reinforcediv {
   position: absolute;
   width: 50px;
-  height: 26px;
-  margin-top: -17px;
-  margin-left: 150px;
+  height: 25px;
+  margin-top: -16px;
+  margin-left: 154px;
   text-align: center;
   font-size: 23px;
   font-weight: bold;
@@ -79,7 +87,7 @@
   margin-top: 6px;
 }
 .result_pay {
-  color: #787c85;
+  color: #737780;
   font-size: 18px;
   font-weight: bold;
   margin-top: 5px;

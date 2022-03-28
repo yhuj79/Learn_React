@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import GameLogo from './image/GameLogo.png';
 import './App.css';
-import './Result';
 import TotyNormal from './TotyNormal';
 import TotyReinforce from './TotyReinforce';
 import Icon from './Icon';
