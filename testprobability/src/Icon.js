@@ -41,10 +41,9 @@ import Solskjaer from './image/profile/Solskjaer.png'; import Sheringham from '.
 import Barnes from './image/profile/Barnes.png'; import DeBoer from './image/profile/DeBoer.png'; import Pauler from './image/profile/Pauler.png';
 import Baia from './image/profile/Baia.png'; import BLaudrup from './image/profile/BLaudrup.png'; import Hidetoshi from './image/profile/Hidetoshi.png';
 
-import Argentina from './image/nation/Argentina.png'; import Poland from './image/nation/Poland.png';
-import Belgium from './image/nation/Belgium.png'; import Brazil from './image/nation/Brazil.png';
+import Argentina from './image/nation/Argentina.png'; import Brazil from './image/nation/Brazil.png';
 import France from './image/nation/France.png'; import Italy from './image/nation/Italy.png';
-import Morocco from './image/nation/Morocco.png'; import Portugal from './image/nation/Portugal.png';
+import Portugal from './image/nation/Portugal.png'; import Spain from './image/nation/Spain.png';
 import Korea from './image/nation/Korea.png'; import Bulgaria from './image/nation/Bulgaria.png';
 import Cameroon from './image/nation/Cameroon.png'; import Checo from './image/nation/Checo.png';
 import CotedIvoire from './image/nation/CotedIvoire.png'; import Croatia from './image/nation/Croatia.png';
@@ -57,7 +56,7 @@ import Rumania from './image/nation/Rumania.png'; import Russia from './image/na
 import Scotland from './image/nation/Scotland.png'; import Serbia from './image/nation/Serbia.png';
 import Sweden from './image/nation/Sweden.png'; import Wales from './image/nation/Wales.png';
 import England from './image/nation/England.png'; import Nigeria from './image/nation/Nigeria.png';
-import Spain from './image/nation/Spain.png';
+
 
 function Icon() {
     const [num, setNum] = useState(0);
@@ -210,7 +209,7 @@ function Icon() {
                     case (num > 37.7896614439 && num <= 39.2156864040):
                         return <Result profile={Campbell} name={"솔 캠벨"} reinforce={1} overall={106} position={"CB"} nation={England} pay={24} price={5_950_000_000} />
                     case (num > 36.3636364838 && num <= 37.7896614439):
-                        return <Result profile={Stoitchkov} name={"H.스토이치코프"} reinforce={1} overall={108} position={"ST"} nation={Hungary} pay={24} price={5_500_000_000} />
+                        return <Result profile={Stoitchkov} name={"H.스토이치코프"} reinforce={1} overall={108} position={"ST"} nation={Bulgaria} pay={24} price={5_500_000_000} />
                     case (num > 34.9376115237 && num <= 36.3636364838):
                         return <Result profile={Lineker} name={"게리 리네커"} reinforce={1} overall={108} position={"ST"} nation={England} pay={24} price={5_290_000_000} />
                     case (num > 33.5115865636 && num <= 34.9376115237):
@@ -272,7 +271,7 @@ function Icon() {
                     case (num > 6.4171123208 && num <= 7.1301248009):
                         return <Result profile={Luis} name={"루이스 에르난데스"} reinforce={1} overall={105} position={"ST"} nation={Mexico} pay={23} price={1_650_000_000} />
                     case (num > 5.7040998407 && num <= 6.4171123208):
-                        return <Result profile={Solskjaer} name={"올레 군나르 솔샤르"} reinforce={1} overall={104} position={"ST"} nation={Denmark} pay={23} price={987_000_000} />
+                        return <Result profile={Solskjaer} name={"올레 군나르 솔샤르"} reinforce={1} overall={104} position={"ST"} nation={Norway} pay={23} price={987_000_000} />
                     case (num > 4.9910873606 && num <= 5.7040998407):
                         return <Result profile={Sheringham} name={"테디 셰링엄"} reinforce={1} overall={104} position={"ST"} nation={England} pay={23} price={758_000_000} />
                     case (num > 4.2780748805 && num <= 4.9910873606):
