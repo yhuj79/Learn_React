@@ -37,7 +37,7 @@ function TotyNormal() {
     return (
         <div className="pack_div">
             <p className="pack_title">22TOTY Top Price All 선수팩</p>
-            <p style={{ color: 'grey' }}>{num}</p>
+            {/* <p style={{ color: 'grey' }}>{num}</p> */}
             {(() => {
                 switch (true) {
                     case (num > 98.3329166585):

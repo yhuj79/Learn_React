@@ -24,3 +24,17 @@
 .App_card {
   display: flex;
 }
+
+@media screen and (max-width: 767px) {
+  .App_gamelogo {
+    width: 350px;
+    margin-left: -21px;
+  }
+  .App_react {
+    display: none;
+  }
+  .App_card {
+    display: block;
+    margin-left: -30px;
+  }
+}

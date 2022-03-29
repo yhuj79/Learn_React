@@ -37,7 +37,7 @@ function TotyReinforce() {
     return (
         <div className="pack_div">
             <p className="pack_title">22TOTY ALL 강화 선수팩 (1강~5강)</p>
-            <p style={{ color: 'grey' }}>{num}</p>
+            {/* <p style={{ color: 'grey' }}>{num}</p> */}
             {(() => {
                 switch (true) {
                     case (num > 99.9858576658):

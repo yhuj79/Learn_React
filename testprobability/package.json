@@ -35,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "https://yhuj79.github.io/Learn_React/testprobability",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
