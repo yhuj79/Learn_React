@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Learn_React/static/css/main.da9912d1.css",
-    "main.js": "/Learn_React/static/js/main.ea850fd2.js",
+    "main.css": "/Learn_React/static/css/main.3cb40e07.css",
+    "main.js": "/Learn_React/static/js/main.007c7dda.js",
     "static/js/787.9e0e3268.chunk.js": "/Learn_React/static/js/787.9e0e3268.chunk.js",
     "static/media/IconPack.png": "/Learn_React/static/media/IconPack.d3e361494bfc052a2a91.png",
     "static/media/TotyPackReinforce.png": "/Learn_React/static/media/TotyPackReinforce.374f0e4a30c89e56328e.png",
@@ -132,12 +132,12 @@
     "static/media/GameLogo.png": "/Learn_React/static/media/GameLogo.40d139cc01b5c95f6026.png",
     "static/media/logo.svg": "/Learn_React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Learn_React/index.html",
-    "main.da9912d1.css.map": "/Learn_React/static/css/main.da9912d1.css.map",
-    "main.ea850fd2.js.map": "/Learn_React/static/js/main.ea850fd2.js.map",
+    "main.3cb40e07.css.map": "/Learn_React/static/css/main.3cb40e07.css.map",
+    "main.007c7dda.js.map": "/Learn_React/static/js/main.007c7dda.js.map",
     "787.9e0e3268.chunk.js.map": "/Learn_React/static/js/787.9e0e3268.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da9912d1.css",
-    "static/js/main.ea850fd2.js"
+    "static/css/main.3cb40e07.css",
+    "static/js/main.007c7dda.js"
   ]
 }
