@@ -160,4 +160,26 @@ export default Profile;
 
 <img src=https://raw.githubusercontent.com/yhuj79/Learn_React/main/md_image/13_SPA_1.gif>
 
-# 버전 차이로 문제가 너무 많음.
+# V6 업데이트로 인해 바뀐 점이 많음.
+
+NavLink activeStyle, activeClassName 사라짐
+
+다음과 같이 적용해 보았음
+
+```javascript
+const NavStyle = ({ isActive }) =>
+    ({
+        ~~~
+    })
+
+    return (
+        <div>
+            <NavLink to="/" style={NavStyle}>Home</NavLink>
+            </div>
+```
+
+exact가 사라짐, /* 로 지정
+
+Switch => Routes, useHistory => useNavigate
+
+Route는 Routes의 직속 자식이어야 함
