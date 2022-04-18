@@ -1,26 +1,23 @@
 const Koa = require('koa');
+const Router = require('koa-router');
+const bodyParser = require('koa-bodyparser');
+
+const api = require('./api');
 
 const app = new Koa();
+const router = new Router();
 
-app.use((ctx,next) => {
-    console.log(ctx.url);
-    console.log(1);
-    if (ctx.query.authorized !== '1') {
-        ctx.status = 401;
-        return;
-    }
-    next();
+router.get('/', ctx => {
+    ctx.body = 'THIS IS HOME';
 });
 
-app.use((ctx,next) => {
-    console.log(2);
-    next();
-});
+router.use('/api', api.routes());
 
-app.use(ctx => {
-    ctx.body = 'hello world';
-});
+app.use(bodyParser());
+
+// app instance에 router 적용
+app.use(router.routes()).use(router.allowedMethods());
 
 app.listen(4000, () => {
-    console.log('Listening on port 4000');
+    console.log('Listening to port 4000');
 });
