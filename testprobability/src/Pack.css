@@ -10,6 +10,7 @@
 }
 .pack_div {
   width: 300px;
+  background-color: rgb(20, 20, 20);
   text-align: center;
   border: 3px solid #dee2e6;
   border-radius: 15px;
