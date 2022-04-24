@@ -9,7 +9,8 @@ const api = require('./api');
 const {PORT, MONGO_URI} = process.env;
 
 mongoose
-.connect(MONGO_URI, { useNewUrlParser: true })
+.connect(MONGO_URI, { useNewUrlParser: true, useFindAndModify: false /* ??? */ })
+                                            // 책 버전 : 4.0.3 22.04.24.NotSupported.
     .then(() => {
         console.log('Connected to MongoDB');
     })
