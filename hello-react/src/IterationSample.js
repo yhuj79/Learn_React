@@ -25,11 +25,11 @@ const IterationSample = () => {
         const nextNames = names.filter(name => name.id !== id);
         setNames(nextNames);
     }
-    const namesList = names.map((name) => <li key={name.id} onDoubleClick={() => textRemove(name.iud)}>{name.text}</li>);
+    const namesList = names.map((name) => <li key={name.id}>{name.text}<button onClick={() => textRemove(name.id)}>삭제</button></li>);
     return (
         <>
             <input placeholder="ADD LIST!" value={inputText} onChange={onChange} />
-            <button onClick={onClick}>ADD</button>
+            <button onClick={onClick}>추가</button>
             <ul>{namesList}</ul>
         </>
     );
