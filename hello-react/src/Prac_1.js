@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./Prac_1.css"
 
 const Prac_1 = () => {
     const [tab, setTab] = useState("");
