@@ -30,4 +30,8 @@
 
 # Side
 
+### :heavy_check_mark: [JSX](https://ko.reactjs.org/docs/introducing-jsx.html)
+
+### :heavy_check_mark: [Hooks](https://ko.reactjs.org/docs/hooks-effect.html)
+
 ### :heavy_check_mark: [TypeScript](https://velog.io/@velopert/create-typescript-react-component)
