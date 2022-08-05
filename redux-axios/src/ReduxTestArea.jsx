@@ -21,18 +21,36 @@ function ReduxTestArea({ dogData }) {
       },
     });
     setData(dogData);
-  };
+  }
+
+  const [active, setActive] = useState(false);
+
+  const [optionOne, setOptionOne] = useState();
+  const [optionTwo, setOptionTwo] = useState();
+
+  function ClickOne() {
+    setActive(!active);
+    if (!active) {
+      setOptionOne("true");
+    } else {
+      setOptionOne();
+    }
+  }
+  function ClickTwo() {
+    setOptionTwo("2");
+  }
 
   useEffect(() => {
     axios
-      .get("https://jsonplaceholder.typicode.com/todos/", {
-        params: { completed: false },
-        params: { userId: 3 },
-        // params: { id: "22" },
+      .get(`https://jsonplaceholder.typicode.com/todos`, {
+        params: {
+          completed: optionOne,
+          userId: optionTwo,
+        },
       })
       .then((response) => setUser(response.data))
       .catch((error) => console.log(error));
-  }, []);
+  }, [optionOne, optionTwo]);
 
   return (
     <div>
@@ -43,7 +61,14 @@ function ReduxTestArea({ dogData }) {
         readOnly={true}
       />
       <br />
-      <button onClick={() => addDogData}>Click a4</button>
+      <button onClick={() => addDogData()}>Click a4</button>
+      <button
+        onClick={() => ClickOne()}
+        style={active ? { backgroundColor: "green" } : {}}
+      >
+        Completed True
+      </button>
+      <button onClick={() => ClickTwo()}>UserID 2</button>
       <br />
       <textarea
         rows={30}
