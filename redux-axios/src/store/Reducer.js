@@ -2,10 +2,14 @@ export const initialState = { completed: null, userId: null };
 
 const reducer = (state, action) => {
   switch (action.type) {
-    case "SET_TRUE_TWO":
-      return { ...state, completed: "true", userId: "2" };
-    case "SET_FALSE_ONE":
-      return { ...state, completed: "false", userId: "1" };
+    case "SET_TRUE":
+      return { ...state, completed: "true" };
+    case "DEL_TRUE":
+      return { ...state, completed: null };
+    case "SET_ONE":
+      return { ...state, userId: "1" };
+    case "DEL_ONE":
+      return { ...state, userId: null };
     default:
       return state;
   }

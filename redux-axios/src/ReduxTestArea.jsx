@@ -1,37 +1,40 @@
+import "./ReduxTestArea.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
-
 import { useStateValue } from "./store/StateProvider";
 
 function ReduxTestArea() {
   const [user, setUser] = useState([]);
-  const [active, setActive] = useState(false);
-  const [optionOne, setOptionOne] = useState();
-  const [optionTwo, setOptionTwo] = useState();
-
   const [initialState, dispatch] = useStateValue();
-  const TrueAndTwo = () => {
-    dispatch({
-      type: "SET_TRUE_TWO",
-    });
-  };
-  const FalseAndOne = () => {
-    dispatch({
-      type: "SET_FALSE_ONE",
-    });
-  };
+  const [activeOne, setActiveOne] = useState(false);
+  const [activeTwo, setActiveTwo] = useState(false);
 
-  function ClickOne() {
-    setActive(!active);
-    if (!active) {
-      setOptionOne("true");
+  const SetTrue = () => {
+    if (!activeOne) {
+      dispatch({
+        type: "SET_TRUE",
+      });
+      setActiveOne(true);
     } else {
-      setOptionOne();
+      dispatch({
+        type: "DEL_TRUE",
+      });
+      setActiveOne(false);
     }
-  }
-  function ClickTwo() {
-    setOptionTwo("2");
-  }
+  };
+  const SetOne = () => {
+    if (!activeTwo) {
+      dispatch({
+        type: "SET_ONE",
+      });
+      setActiveTwo(true);
+    } else {
+      dispatch({
+        type: "DEL_ONE",
+      });
+      setActiveTwo(false);
+    }
+  };
 
   useEffect(() => {
     axios
@@ -47,30 +50,40 @@ function ReduxTestArea() {
 
   return (
     <div>
-      <button onClick={() => TrueAndTwo()}>TrueAndTwo Click</button>
-      <button onClick={() => FalseAndOne()}>FalseAndOne Click</button>
-      <br />
-      <textarea
-        rows={15}
-        cols={83}
-        value={JSON.stringify(initialState)}
-        readOnly={true}
-      />
-      <br />
       <button
-        onClick={() => ClickOne()}
-        style={active ? { backgroundColor: "green" } : {}}
+        className="margin"
+        style={activeOne ? { backgroundColor: "green" } : {}}
+        onClick={() => SetTrue()}
       >
-        Completed True
+        SetTrue Click
       </button>
-      <button onClick={() => ClickTwo()}>UserID 2</button>
+      <button
+        className="margin"
+        style={activeTwo ? { backgroundColor: "green" } : {}}
+        onClick={() => SetOne()}
+      >
+        SetOne Click
+      </button>
       <br />
-      <textarea
-        rows={30}
-        cols={83}
-        value={JSON.stringify(user, null, 3)}
-        readOnly={true}
-      />
+      <div
+        className="margin"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <textarea
+          className="margin"
+          rows={40}
+          cols={50}
+          value={JSON.stringify(initialState)}
+          readOnly={true}
+        />
+        <textarea
+          className="margin"
+          rows={40}
+          cols={50}
+          value={JSON.stringify(user, null, 3)}
+          readOnly={true}
+        />
+      </div>
     </div>
   );
 }
