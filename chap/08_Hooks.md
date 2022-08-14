@@ -1,7 +1,7 @@
 # :eight:[ Hooks](https://github.com/yhuj79/Learn_React/blob/master/chap/08_Hooks.md)
 
-<div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/07_LifeCycle.md'><<:seven:PREV (Life Cycle)</a></div>
-<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/09_Styling.md'>:nine:NEXT (Styling) >></a></div>
+|[:seven:&ensp;Life Cycle](https://github.com/yhuj79/Learn_React/blob/master/chap/07_LifeCycle.md)|[:nine:&ensp;Styling](https://github.com/yhuj79/Learn_REACT/blob/master/chap/09_Styling.md)|
+|:---|---:|
 
 ## 1 ) UseState
 

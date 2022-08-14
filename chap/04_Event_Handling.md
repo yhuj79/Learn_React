@@ -1,7 +1,7 @@
 # :four:[ Event Handling](https://github.com/yhuj79/Learn_React/blob/master/chap/04_Event_Handling.md)
 
-<div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/03_Component.md'><<:three:PREV (Component)</a></div>
-<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/05_REF.md'>:five:NEXT (ref: DOM) >></a></div>
+|[:three:&ensp;Component](https://github.com/yhuj79/Learn_React/blob/master/chap/03_Component.md)|[:five:&ensp;ref: DOM](https://github.com/yhuj79/Learn_REACT/blob/master/chap/05_REF.md)|
+|:---|---:|
 
 ## 1 ) 클래스 Component 구현
 

@@ -1,7 +1,7 @@
 # :five:[ ref: DOM](https://github.com/yhuj79/Learn_React/blob/master/chap/05_REF.md)
 
-<div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/04_Event_Handling.md'><<:four:PREV (Event Handling)</a></div>
-<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/06_Component_Iteration.md'>:six:NEXT (Component Iteration) >></a></div>
+|[:four:&ensp;Event Handling](https://github.com/yhuj79/Learn_React/blob/master/chap/04_Event_Handling.md)|[:six:&ensp;Component Iteration](https://github.com/yhuj79/Learn_REACT/blob/master/chap/06_Component_Iteration.md)|
+|:---|---:|
 
 ## 1 ) 비밀번호 확인기능 구현 - State
 

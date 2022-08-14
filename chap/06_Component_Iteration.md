@@ -1,7 +1,7 @@
 # :six:[ Component Iteration](https://github.com/yhuj79/Learn_React/blob/master/chap/06_Component_Iteration.md)
 
-<div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/05_REF.md'><<:five:PREV (ref: DOM)</a></div>
-<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/07_LifeCycle.md'>:seven:NEXT (Life Cycle) >></a></div>
+|[:five:&ensp;ref: DOM](https://github.com/yhuj79/Learn_React/blob/master/chap/05_REF.md)|[:seven:&ensp;Life Cycle](https://github.com/yhuj79/Learn_REACT/blob/master/chap/07_LifeCycle.md)|
+|:---|---:|
 
 ## 1 ) MAP
 

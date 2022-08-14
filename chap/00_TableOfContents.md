@@ -1,6 +1,7 @@
 # 목차
 
-<div align="left"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/README.md'><<:one:PREV (main)</a></div>
+||[:two:&ensp;JSX](https://github.com/yhuj79/Learn_React/blob/master/chap/02_JSX.md)|
+|:---|---:|
 
 ## 1장 리액트 시작
 

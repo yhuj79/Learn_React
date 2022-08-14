@@ -1,7 +1,7 @@
 # :two::one:[ Backend KOA](https://github.com/yhuj79/Learn_React/blob/master/chap/21_BackendKOA.md)
 
-<div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/15_ContextAPI.md'><<:one::five:PREV (SPA)</a></div>
-<!--<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/21_BackendKOA.md'>:one::five:NEXT ( ) >></a></div>-->
+|[:one::five:&ensp;Context API](https://github.com/yhuj79/Learn_React/blob/master/chap/15_ContextAPI.md)||
+|:---|---:|
 
 ## 1 ) ESLint Prettier 세팅
 

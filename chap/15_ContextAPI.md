@@ -1,7 +1,7 @@
 # :one::five:[ Context API](https://github.com/yhuj79/Learn_React/blob/master/chap/15_ContextAPI.md)
 
-<div align="left"><a href='https://github.com/yhuj79/Learn_React/blob/master/chap/13_SPA.md'><<:nine:PREV (SPA)</a></div>
-<div align="right"><a href='https://github.com/yhuj79/Learn_REACT/blob/master/chap/21_BackendKOA.md'>:two::one:NEXT (Backend KOA) >></a></div>
+|[:one::three:&ensp;SPA](https://github.com/yhuj79/Learn_React/blob/master/chap/13_SPA.md)|[:two::one:&ensp;Backend KOA](https://github.com/yhuj79/Learn_REACT/blob/master/chap/21_BackendKOA.md)|
+|:---|---:|
 
 ## 1 ) Context, Consumer, Provider
 
