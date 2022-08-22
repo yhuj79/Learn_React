@@ -35,3 +35,7 @@
 ### :heavy_check_mark: [Hooks](https://ko.reactjs.org/docs/hooks-effect.html)
 
 ### :heavy_check_mark: [TypeScript](https://velog.io/@velopert/create-typescript-react-component)
+
+### :heavy_check_mark: [패키지 잠금 파일](https://www.daleseo.com/js-package-locks/)
+
+### :heavy_check_mark: [절대 경로 Import](https://velog.io/@gwangsuda/%EC%A0%88%EB%8C%80-%EA%B2%BD%EB%A1%9C%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EB%AA%A8%EB%93%88-%EC%9E%84%ED%8F%AC%ED%8A%B8-%ED%95%98%EA%B8%B0-)
