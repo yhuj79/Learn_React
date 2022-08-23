@@ -1,7 +1,7 @@
 import logo from 'logo.svg';
 import "components/common/Header.scss";
 
-function Header() {
+const Header: React.FC = () => {
     return (
         <header className="header">
         <img src={logo} className="header-logo" alt="" />
