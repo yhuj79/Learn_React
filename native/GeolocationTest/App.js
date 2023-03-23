@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import type {Node} from 'react';
-import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import {Header} from 'react-native/Libraries/NewAppScreen';
 import {Platform} from 'react-native';
 import Geolocation from 'react-native-geolocation-service';
@@ -15,13 +15,14 @@ const App: () => Node = () => {
   }, []);
 
   useEffect(() => {
-    Geolocation.getCurrentPosition(
+    Geolocation.watchPosition(
       position => {
         const {latitude, longitude} = position.coords;
         setLocation({
           latitude,
           longitude,
         });
+        console.log('SetLocation');
       },
       error => {
         console.log(error.code, error.message);
@@ -32,22 +33,16 @@ const App: () => Node = () => {
 
   return (
     <SafeAreaView>
-      <ScrollView>
-        <Header />
-        <View style={styles.container}>
-          <Text style={styles.text}>Location</Text>
-          {location && (
-            <>
-              <Text style={styles.text}>
-                Longitude (X) : {location.longitude}
-              </Text>
-              <Text style={styles.text}>
-                Latitude (Y) : {location.latitude}
-              </Text>
-            </>
-          )}
-        </View>
-      </ScrollView>
+      <Header />
+      <View style={styles.container}>
+        <Text style={styles.title}>Location</Text>
+        {location && (
+          <>
+            <Text style={styles.text}>X : {location.longitude}</Text>
+            <Text style={styles.text}>Y : {location.latitude}</Text>
+          </>
+        )}
+      </View>
     </SafeAreaView>
   );
 };
@@ -58,8 +53,15 @@ const styles = StyleSheet.create({
     paddingTop: 70,
     paddingBottom: 70,
   },
+  title: {
+    fontWeight: '700',
+    fontSize: 30,
+    textAlign: 'center',
+    marginBottom: 30,
+  },
   text: {
     fontWeight: '700',
+    fontSize: 20,
     textAlign: 'center',
   },
 });
