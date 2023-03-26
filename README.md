@@ -30,8 +30,6 @@
 
 # Side
 
-### :file_folder: [Image-Test](https://github.com/yhuj79/Learn_React/tree/master/md_image/image-test)
-
 ### :heavy_check_mark: [JSX](https://ko.reactjs.org/docs/introducing-jsx.html)
 
 ### :heavy_check_mark: [Hooks](https://ko.reactjs.org/docs/hooks-effect.html)
