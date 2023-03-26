@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mapwebviewtest/static/css/main.e6c13ad2.css",
-    "main.js": "/mapwebviewtest/static/js/main.a0b9b374.js",
-    "static/js/787.0209cb96.chunk.js": "/mapwebviewtest/static/js/787.0209cb96.chunk.js",
-    "index.html": "/mapwebviewtest/index.html",
-    "main.e6c13ad2.css.map": "/mapwebviewtest/static/css/main.e6c13ad2.css.map",
-    "main.a0b9b374.js.map": "/mapwebviewtest/static/js/main.a0b9b374.js.map",
-    "787.0209cb96.chunk.js.map": "/mapwebviewtest/static/js/787.0209cb96.chunk.js.map"
+    "main.css": "/Learn_React/mapwebviewtest/static/css/main.e6c13ad2.css",
+    "main.js": "/Learn_React/mapwebviewtest/static/js/main.949e8064.js",
+    "static/js/787.0209cb96.chunk.js": "/Learn_React/mapwebviewtest/static/js/787.0209cb96.chunk.js",
+    "index.html": "/Learn_React/mapwebviewtest/index.html",
+    "main.e6c13ad2.css.map": "/Learn_React/mapwebviewtest/static/css/main.e6c13ad2.css.map",
+    "main.949e8064.js.map": "/Learn_React/mapwebviewtest/static/js/main.949e8064.js.map",
+    "787.0209cb96.chunk.js.map": "/Learn_React/mapwebviewtest/static/js/787.0209cb96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a0b9b374.js"
+    "static/js/main.949e8064.js"
   ]
 }
