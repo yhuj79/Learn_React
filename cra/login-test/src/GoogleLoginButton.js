@@ -1,6 +1,6 @@
 import { GoogleLogin } from "@react-oauth/google";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import jwtDecode from "jwt-decode";
+import axios from "axios";
 
 const GoogleLoginButton = () => {
   return (
@@ -8,21 +8,17 @@ const GoogleLoginButton = () => {
       <GoogleOAuthProvider clientId={process.env.REACT_APP_CLIENT_ID}>
         <GoogleLogin
           onSuccess={(res) => {
-            console.log(jwtDecode(res.credential));
-            window.localStorage.setItem(
-              "user_email",
-              jwtDecode(res.credential).email
-            );
-            window.localStorage.setItem(
-              "user_name",
-              jwtDecode(res.credential).given_name
-            );
-            window.localStorage.setItem(
-              "user_img",
-              jwtDecode(res.credential).picture
-            );
-            // Local Storage 만료시간 설정
-            window.location.reload();
+            axios
+              .post("http://localhost:8000/api/login", {
+                data: res,
+              })
+              .then((res) => {
+                if (res.status === 200) {
+                  console.log("login success!");
+                } else {
+                  console.log("login error...");
+                }
+              });
           }}
           onFailure={(err) => {
             console.log(err);
